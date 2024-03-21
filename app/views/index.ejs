@@ -1,0 +1,17 @@
+<%- include ('./partials/header.ejs') %>
+    
+<main>
+<div class="main-container">
+    <% for (const poke of pokedex){%>
+<div class="container-dex">
+<img src="/img/<%=poke.numero%>.png" alt="<%=poke.nom%>">
+<a href="poke/<%= poke.numero %>"><p># <%= poke.numero%> <%= poke.nom%>
+</p></a>
+</div>
+<%}%>
+</div>
+</main>
+  </body>
+  
+  
+</html>

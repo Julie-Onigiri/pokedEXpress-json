@@ -1,0 +1,139 @@
+* ::before ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.bree-serif-regular {
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+body {
+    max-width: 1200px;
+    background-color:rgb(177, 20, 20);
+}
+
+header {
+color: #b11414;
+margin: 5px auto;
+width: 95%;
+height: 50px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-radius: 15px;
+background-color: antiquewhite;
+}
+
+.title {
+    margin-left: 20px;
+}
+
+ul {
+    display: flex;
+    width: 150px;
+    justify-content: space-around;
+}
+
+.main-container { 
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 10px auto;
+    
+}
+
+.container-dex{
+    width: 350px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+align-items: flex-start;
+    border-radius: 15px;
+    background-color: #810606;
+}
+
+li >a {
+    color: #810606;
+
+}
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 300px;
+    object-fit: content;
+    margin: auto;
+}
+.img-poke{
+    border :2px solid #ff00dd;
+
+
+}
+.container {
+display: flex;
+flex-direction: column;
+
+border :2px solid yellow;
+}
+
+.title-container {
+  color: antiquewhite; 
+  text-align: center; 
+}
+
+.detail-container {
+    border :2px solid rgb(0, 128, 96);
+    display: flex;
+}
+
+.title-container{
+    border :2px solid green;
+}
+
+.détail {
+    width: 60%;
+    padding: 10px 15px;
+    color: antiquewhite;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* text-align: center; */
+    border-radius: 15px;
+    background-color: #810606;
+}
+.container-dex a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+.statistiques{
+    width: 60%;
+}
+.progress{
+border: 3px solid fuchsia;
+
+}
+label {
+ 
+
+    padding-right: 10px;
+    font-size: 1rem;
+  }
+  .label_progress{
+border: 1px solid greenyellow;
+display: flex;
+justify-content: space-between;
+
+
+  }
+
+  
+ 
