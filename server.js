@@ -12,6 +12,5 @@ app.use (express.static(__dirname + '/public'));
 app .use (router) ;
 
 app.listen(PORT, () => {
-    console.log(`Mon serveur écoute sur le port  ${PORT} `);
-    });
-    
+    console.log(`🎧 Server listening on http://localhost:${PORT}`);
+});

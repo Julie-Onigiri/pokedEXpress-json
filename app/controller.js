@@ -5,7 +5,7 @@ const controller = {
 homePage: (req, res) => {
     res.render('index', { pokedex });
 },
-
+// methode pour la page détail
 pokePage: (req,res) => {
     const pokeNum = req.params.numero;
     console.log(pokeNum);
